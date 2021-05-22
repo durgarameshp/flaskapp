@@ -6,5 +6,5 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST', 'PUT', 'DELETE'])
 def hello_world():
-    output="Hello world from method: "+request.method
+    output="Hello world"
     return output
